@@ -1,14 +1,21 @@
 import { reverse } from "dns";
 
 // Code your solution here!
+function printString(myString) {
+  console.log(myString)
 
+<<<<<<< HEAD
 function printString(myString) {
   console.log(myString[0])
   if (myString.length > 1) {
+=======
+  if (myString.length > 0) {
+>>>>>>> 3047177dbcf957bd1c4a54c57cd633719f56b411
     let mySubstring = myString.substring(1, myString.length);
     printString(mySubstring)
   }
 }
+<<<<<<< HEAD
 
 function reverseString(myString) {
   if (myString === '') {
@@ -34,3 +41,5 @@ function isPalindrome(myString) {
   // return true
 }
 
+=======
+>>>>>>> 3047177dbcf957bd1c4a54c57cd633719f56b411
